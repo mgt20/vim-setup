@@ -15,6 +15,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
+Plug 'raimon49/requirements.txt.vim'
 
 " Initialize plugin system
 call plug#end()
