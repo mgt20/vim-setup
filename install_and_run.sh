@@ -17,6 +17,12 @@ sudo apt-get install nodejs -y
 - raimon49/requirements.txt.vim
 
 After installing coc.nvim, run:
+- vim
+- :PlugUpgrade
+- :PlugUpdate
+- :CocInstall coc-pyright
+
+- nvim
 - :PlugUpgrade
 - :PlugUpdate
 - :CocInstall coc-pyright
