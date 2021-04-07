@@ -6,7 +6,8 @@ Documenting my vim plugs and preferences
 
 1. Make install script executable with 'chmod +x install_and_run.sh'
 2. Run install script with './install_and_run.sh'
-4. Copy .vimrc file to ~/.vimrc
+3. Copy .vimrc file to ~/.vimrc
+4. Either reboot, or run 'source ~/.vimrc'
 
 # After installing vim-plug, add these plug-ins
 
