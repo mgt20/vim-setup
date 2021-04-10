@@ -4,10 +4,11 @@ Documenting my vim plugs and preferences
 
 ## Instructions
 
-1. Download and run script.sh. Also, copy init.vim to the proper directory. Finally, reload ~/.vimrc and init.vim:
+1. Run these commands in a bash shell on Linux:
 
 ```
 curl -o- https://raw.githubusercontent.com/mgt20/vim-setup/main/script.sh | bash
+curl -o ~/.vimrc https://raw.githubusercontent.com/mgt20/vim-setup/main/.vimrc 
 curl -o ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
 source ~/.vimrc
 source ~/.config/nvim/init.vim
