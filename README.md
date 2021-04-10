@@ -7,7 +7,8 @@ Documenting my vim plugs and preferences
 1. Download the script and run it:
 
 ```
-curl -o- https://raw.githubusercontent.com/mgt20/vim-setup/main/script.sh | bash && curl -o- ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
+curl -o- https://raw.githubusercontent.com/mgt20/vim-setup/main/script.sh | bash
+curl -o- ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
 ```
 
 2. Copy .vimrc file to ~/.vimrc:
