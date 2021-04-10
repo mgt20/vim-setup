@@ -4,20 +4,15 @@ Documenting my vim plugs and preferences
 
 ## Instructions
 
-1. Download the script and run it:
+1. Download and run script.sh. Also, copy init.vim to the proper directory. Finally, reload ~/.vimrc and init.vim:
 
 ```
 curl -o- https://raw.githubusercontent.com/mgt20/vim-setup/main/script.sh | bash
-curl -o- ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
+curl -o ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
+source ~/.vimrc
+source ~/.config/nvim/init.vim
 ```
 
-2. Copy .vimrc file to ~/.vimrc:
-
-```
-curl -o- https://raw.githubusercontent.com/mgt20/docker-crostini-setup/main/.vimrc | cp .vimrc ~/.vimrc
-```
-
-3. Either reboot, or run 'source ~/.vimrc'
 
 # After installing vim-plug, add these plug-ins
 
