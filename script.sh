@@ -5,7 +5,7 @@ sudo apt install \
        python3-neovim \
        nodejs \
        python3-pip \
-       nodejs npm -y
+       nodejs -y
 python3 -m pip install --user --upgrade pynvim
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
