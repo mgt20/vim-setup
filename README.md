@@ -17,9 +17,10 @@ After installing coc.nvim, run:
 - :PlugUpgrade
 - :PlugUpdate
 - :CocInstall coc-pyright coc-docker
+- #TODO: fix npm / yarn dependency error
 
 - nvim
 - :PlugUpgrade
 - :PlugUpdate
 - :CocInstall coc-pyright coc-docker
-
+- #TODO: fix npm / yarn dependency error
