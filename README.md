@@ -13,6 +13,4 @@ curl -o ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setu
 ```
 
 - nvim
-- :PlugUpgrade
-- :PlugUpdate
 - :CocInstall coc-pyright coc-docker
