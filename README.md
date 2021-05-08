@@ -12,13 +12,6 @@ curl -o ~/.vimrc https://raw.githubusercontent.com/mgt20/vim-setup/main/.vimrc
 curl -o ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
 ```
 
-After installing coc.nvim, run:
-- vim
-- :PlugUpgrade
-- :PlugUpdate
-- :CocInstall coc-pyright coc-docker
-- #TODO: fix npm / yarn dependency error
-
 - nvim
 - :PlugUpgrade
 - :PlugUpdate
