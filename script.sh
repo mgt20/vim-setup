@@ -1,3 +1,5 @@
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update
 sudo apt install \
        git \
@@ -5,7 +7,8 @@ sudo apt install \
        python3-neovim \
        nodejs \
        python3-pip \
-       nodejs -y
+       nodejs \
+       yarn -y
 python3 -m pip install --user --upgrade pynvim
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
