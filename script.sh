@@ -1,6 +1,8 @@
 #/bin/bash
 # Setup VIM and VIM plugins and preferences
 
+set -euf -o pipefail
+
 get_os() {
         if [ -f /etc/os-release ]; then
             # freedesktop.org and systemd
