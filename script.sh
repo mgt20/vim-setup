@@ -1,4 +1,5 @@
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update
 sudo apt install \
@@ -16,4 +17,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 mkdir -p ~/.config/nvim
 
-curl -sL install-node.vercel.app/lts | sudo bash #install node, pre-req for coc.nvim
+sudo apt-get install -y nodejs
