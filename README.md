@@ -1,6 +1,6 @@
 # vim-setup
 
-Documenting my vim plugs and preferences
+Documenting my vim plugs and preferences (NOTE: this includes distro and apt updates too)
 
 ## Instructions
 

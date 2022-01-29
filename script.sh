@@ -36,7 +36,19 @@ get_os() {
 
 distro_ubuntu_setup() {
         echo "You will be prompted for your sudo credentials in order to execute the next commands"
-        sudo apt-get update
+        #https://github.com/UpdateCommand/update/blob/master/bin/update-apt
+        if command -v apt-get >/dev/null 2>&1; then
+                sudo apt-get --quiet --yes autoclean
+                sudo apt-get --quiet --yes --purge autoremove
+                sudo apt-get --quiet --yes update
+                sudo apt-get --quiet --yes install update-manager
+                sudo apt-get --quiet --yes install update-manager-core
+                sudo apt-get --quiet --yes upgrade --fix-broken --fix-missing
+                sudo apt-get --quiet --yes dist-upgrade --fix-broken --fix-missing
+                sudo apt-get --quiet --yes full-upgrade --fix-broken --fix-missing
+                sudo apt-get --quiet --yes autoclean
+                sudo apt-get --quiet --yes --purge autoremove
+        fi 
         curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
         # https://github.com/nodesource/distributions/blob/master/README.md
         curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
