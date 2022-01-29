@@ -9,7 +9,7 @@ Documenting my vim plugs and preferences
 ```
 git clone https://github.com/mgt20/vim-setup.git
 cd vim-setup
-sudo chmod +x ./script.sh
+chmod +x ./script.sh
 cp .vimrc ~/.vimrc
 cp init.vim ~/.config/nvim/init.vim
 ```
