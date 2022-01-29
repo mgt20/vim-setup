@@ -7,9 +7,11 @@ Documenting my vim plugs and preferences
 1. Run these commands in a bash shell on Linux:
 
 ```
-curl -o- https://raw.githubusercontent.com/mgt20/vim-setup/main/script.sh | bash
-curl -o ~/.vimrc https://raw.githubusercontent.com/mgt20/vim-setup/main/.vimrc 
-curl -o ~/.config/nvim/init.vim https://raw.githubusercontent.com/mgt20/vim-setup/main/init.vim 
+git clone https://github.com/mgt20/vim-setup.git
+cd vim-setup
+sudo chmod +x ./script.sh
+cp .vimrc ~/.vimrc
+cp init.vim ~/.config/nvim/init.vim
 ```
 
 - nvim
