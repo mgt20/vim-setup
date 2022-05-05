@@ -16,4 +16,4 @@ cp .vimrc ~/.vimrc
 ```
 
 - nvim
-- :CocInstall coc-pyright coc-docker
+- :CocInstall coc-pyright coc-docker coc-java
